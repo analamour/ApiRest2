@@ -1,0 +1,15 @@
+[
+    {
+        "id": "1",
+        "producto": "Remera estampada",
+        "talle": "unico",
+        "precio": "$1800"
+    },
+    {
+        "id": "2",
+        "producto": "Musculosa bàsica",
+        "talle": "M",
+        "precio": "$1200"
+    }
+
+]

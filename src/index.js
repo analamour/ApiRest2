@@ -15,12 +15,8 @@ app.use(express.json());
 
 
 //routes
-app.get('/', (req,res) => {
-    res.json({"Titulo": "Hello World"});
-
-});
-
-
+app.use(require('./routes/index'));
+app.use('/api/productos', require('./routes/productos'));
 
 
 // start server
